@@ -1,1 +1,1 @@
-![funnyfr4er/hw_website](funnyfr4er.github.io)
+https://funnyfr4er.github.io/hse_studying/html_hw/first_page
