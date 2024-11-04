@@ -1,1 +1,1 @@
-funnyfr4er.github.io
+[funnyfr4er.github.io]
