@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>ОСтавить отзыв</title>
+    </head>
+
+    <body>
+        <id='top'></id>
+        <ul>
+            <li><a href = 'first_page.html' target = '_self'>Главная страница</a>
+            <li><a href = 'first_page.html#head1' target = '_self'>*** - избранный стишок на заглавной странице</a>
+            <li><a href = 'first_page.html' target = '_self'><img height="50px" src = 'src.jpg'></a>
+            <li><a href = 'https://t.me/+nbsiB17qgTNkZjBi' target="_blank">Ссылка на мой телеграм-канал со стишками</a>
+            <li><a href = 'long_stories.html' target = '_self'>Длинные стишки</a>
+            <li><a href = 'censored_stories.html' target = '_self'>Нецензурные стишки (отредактированные сайтом stihi.ru, но лучше все же не открывать)</a>
+            <li><a href = 'stats.html' target = '_self'>Стишковая статистика</a>
+            <li><a href = 'images.html' target = '_self'>Сгенерированные иллюстрации к стишкам</a>
+            <li><a href = 'connect.html' target="_self">Связаться с автором</a></li>    
+            <li><a href = 'respond.html' target="_self"><b>Оставить отзыв</b></a></li>    
+            <li><a href = 'problem.html' target="_self">Задача</a></li>
+            <li><a href = 'passport.html' target="_self">Паспорт</a></li>        
+        </ul>
+        <h2>Ваши впечатления от прочитанного и просмотренного</h2>
+        <form action="https://www.bing.com/search?" id="readExperienceForm" name="readExperienceForm" target="_blank">
+            <input type="hidden" name="q" value="search" target="_blank">
+            
+            <label for="name">Как к вам обращаться?</label>
+            <input type="text" id="name" name="name">
+            
+            <br><br>
+            
+
+            <label for="read_count">Сколько стишков вы прочитали?</label>
+            <input type="number" id="read_count" name="read_count" min="0" max="8">
+            
+            <br>
+            <p>
+                Вы читали нецензурные стишки?
+                <input type="radio" name="read_censored" value="yes">
+                Да, читал(а)
+                <input type="radio" name="read_censored" value="no">
+                Нет, не читал(а)
+            </p>
+
+            <p>
+                Какие из иллюстраций вам понравились?
+                <input type="checkbox" name="liked" value="first"> Первая
+                <input type="checkbox" name="liked" value="second"> Вторая
+                <input type="checkbox" name="liked" value="third"> Третья
+            </p>
+
+            <label for="date_read">Дата ознакомления:</label>
+            <input type="date" name="date">
+
+            <p>
+                Пароль для внесения правок
+                <input type="password" id="password" name="password">
+            </p>
+
+            <input type="submit" name="submit" value="Отправить">
+            
+        </form>
+        <br><a href='respond.html#top' target="_self">К началу</a><br>
+
+
+        <script src="respond_script.js"></script>
+    </body>
+
+</html>

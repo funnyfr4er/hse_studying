@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#main_background{
+    height: 731px;
+    background-image: url(passport.jpg);
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'Faberge';
+    src: local(Faberge.ttf),
+    url(Faberge.ttf.ttf);
+}
+
+#vidanstr1{
+    font-family: 'Faberge';
+    padding-top: 77px;
+    padding-left: 145px;
+}
+
+#vidanstr2{
+    font-family: 'Faberge';
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+#vidanstrdata{
+    font-family: 'Faberge';
+    padding-top: 45px;
+    padding-left: 100px;
+}
+
+#passfoto{
+    padding-top: 300px;
+    padding-left: 50px;
+    float: left;
+}
+
+#surname{
+    font-family: 'Faberge';
+    padding-top: 215px;
+    padding-left: 220px;
+}
+
+#name{
+    font-family: 'Faberge';
+    padding-top: 42px;
+    padding-left: 200px;
+}
+
+#secondname{
+    font-family: 'Faberge';
+    padding-top: 11px;
+    padding-left: 223px;
+}
+
+#sex{
+    font-family: 'Faberge';
+    padding-top: 15px;
+    padding-left: 50px;
+    float: left;
+}
+
+#birth{
+    font-family: 'Faberge';
+    padding-top: 15px;
+    padding-left: 300px;
+}
+
+#born{
+    font-family: 'Faberge';
+    padding-top: 11px;
+    padding-left: 223px;
+}
