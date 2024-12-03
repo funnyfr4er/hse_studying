@@ -15,7 +15,7 @@ const coffees = [
       price: 20000
     },
     {
-      image: "chanchamayo.jpg",
+      image: "chanchamayo.JPG",
       description: "chanchamayo. перу.",
       price: 33000
     },
